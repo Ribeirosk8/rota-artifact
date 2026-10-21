@@ -96,7 +96,7 @@ same windows. All numbers in the paper derive from these files.
 
 ```
 @inproceedings{ribeiro2026rota,
-  author    = {Ribeiro, Amauri and Li, Jie and Sill, Alan and Chen, Yong},
+  author    = {Ribeiro, Amauri and Li, Jie and Sill, Alan},
   title     = {{ROTA}: Measuring What Throughput Hides in the Energy Cost of
                Multi-{GPU} Communication Routes},
   booktitle = {Proc.\ IEEE/ACM BDCAT '26},
