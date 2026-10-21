@@ -5,7 +5,7 @@ Cost of Multi-GPU Communication Routes"**, accepted as a short paper at the
 13th IEEE/ACM International Conference on Big Data Computing, Applications
 and Technologies (BDCAT 2026), Florianopolis, Brazil, December 2026.
 
-Authors: Amauri Ribeiro, Jie Li, Alan Sill and Yong Chen (Texas Tech
+Authors: Amauri Ribeiro, Jie Li, Alan Sill (Texas Tech
 University). Measurements were taken on the H100 nodes of the REPACSS cluster
 at Texas Tech University.
 
