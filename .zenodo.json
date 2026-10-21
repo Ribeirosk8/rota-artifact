@@ -1,0 +1,16 @@
+{
+  "title": "ROTA: measurement code, raw energy-counter data, and figure scripts (artifact of the BDCAT 2026 paper)",
+  "upload_type": "software",
+  "description": "Artifact of the paper \"ROTA: Measuring What Throughput Hides in the Energy Cost of Multi-GPU Communication Routes\" (IEEE/ACM BDCAT 2026, short paper). It contains the CUDA benchmark and Slurm scripts used to measure energy per byte of GPU-to-GPU communication on NVIDIA H100 nodes, the raw NVML energy-counter data of every run reported in the paper, a verifier that recomputes every published aggregate from the raw counters, and the scripts that generate the three figures.",
+  "creators": [
+    {"name": "Ribeiro, Amauri", "affiliation": "Texas Tech University"},
+    {"name": "Li, Jie", "affiliation": "Texas Tech University"},
+    {"name": "Sill, Alan", "affiliation": "Texas Tech University"},
+    {"name": "Chen, Yong", "affiliation": "Texas Tech University"}
+  ],
+  "keywords": ["GPU communication", "energy measurement", "NVLink", "NVML", "H100", "energy per byte", "HPC"],
+  "license": "MIT",
+  "access_right": "open",
+  "grants": [{"id": "10.13039/100000001::2404438"}],
+  "notes": "Data (data/, figs/curve_data.json) and figures are licensed under CC BY 4.0; code under MIT. Measurements were taken on the REPACSS cluster at Texas Tech University."
+}
