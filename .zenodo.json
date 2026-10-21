@@ -5,8 +5,7 @@
   "creators": [
     {"name": "Ribeiro, Amauri", "affiliation": "Texas Tech University"},
     {"name": "Li, Jie", "affiliation": "Texas Tech University"},
-    {"name": "Sill, Alan", "affiliation": "Texas Tech University"},
-    {"name": "Chen, Yong", "affiliation": "Texas Tech University"}
+    {"name": "Sill, Alan", "affiliation": "Texas Tech University"}
   ],
   "keywords": ["GPU communication", "energy measurement", "NVLink", "NVML", "H100", "energy per byte", "HPC"],
   "license": "MIT",
