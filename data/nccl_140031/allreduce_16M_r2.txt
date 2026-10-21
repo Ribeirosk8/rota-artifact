@@ -1,0 +1,20 @@
+# nccl-tests version 2.19.6 nccl-headers=22105 nccl-library=22203
+# Collective test starting: all_reduce_perf
+# nThread 1 nGpus 4 minBytes 16777216 maxBytes 16777216 step: 1048576(bytes) warmup iters: 5 iters: 54000 agg iters: 1 validation: 1 graph: 0 unalign: 0
+#
+# Using devices
+#  Rank  0 Group  0 Pid  10815 on   node-redacted device  0 [0000:4a:00] NVIDIA H100 NVL
+#  Rank  1 Group  0 Pid  10815 on   node-redacted device  1 [0000:61:00] NVIDIA H100 NVL
+#  Rank  2 Group  0 Pid  10815 on   node-redacted device  2 [0000:ca:00] NVIDIA H100 NVL
+#  Rank  3 Group  0 Pid  10815 on   node-redacted device  3 [0000:e1:00] NVIDIA H100 NVL
+#
+#                                                              out-of-place                       in-place          
+#       size         count      type   redop    root     time   algbw   busbw  #wrong     time   algbw   busbw  #wrong 
+#        (B)    (elements)                               (us)  (GB/s)  (GB/s)             (us)  (GB/s)  (GB/s)         
+    16777216       4194304     float     sum      -1   459.79   36.49   54.73       0   452.13   37.11   55.66       0
+# Out of bounds values : 0 OK
+# Avg bus bandwidth    : 55.1967 
+#
+# Collective test concluded: all_reduce_perf
+#
+
